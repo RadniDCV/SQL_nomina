@@ -1,4 +1,5 @@
 
+--Ejemplo 1
 CREATE  FUNCTION [dbo].[AFP_FUTURO](@PLA varchar(50),@GEST varchar(10), @OFI varchar(20))
 /** PREVISION  FDBV**/
 RETURNS @AFP TABLE(
