@@ -1,0 +1,23 @@
+PM-M-SNA	Sueldo Neto (total ganado-aportes)
+PM-M-OTI	Otros ingresos imponibles
+PM-M-ISN	Monto de ingreso neto
+PM-M-INI	Dos (2) Salarios Mínimos Nacionales no imponibles
+PM-M-IMI	Importe sujeto a impuesto (base imponible)
+PM-M-I13	Impuesto RC-IVA
+PM-M-IMN	13% de dos (2) Salarios Nacionales
+PM-M-N13	Impuesto Neto RC-IVA
+PM-M-I87	F-110 CASILLA 693
+PM-M-IFI	Saldo a Favor del Fisco
+PM-M-ICO	Saldo a Favor del Dependiente
+PM-M-ISA	Saldo a Favor del Dependiente periodo anterior
+PM-M-IMA	Mantenimiento de valor del Saldo a Favor del Dependiente del periodo anterior
+PM-M-IS1	Saldo del periodo anterior actualizado
+PM-M-ISU	Saldo utilizado
+PM-M-ISR	Saldo RC-IVA sujeto a retención
+PM-M-AF1	Pago a cuenta SIETE-RG periodo anterior
+PM-M-FF1	F-110 Casilla 465
+PM-M-FFT	Total saldo pago a cuenta SIETE-RG del periodo
+PM-M-UF1	Pago a cuenta SIETE-RG utilizado
+PM-M-ISF	Impuesto RC-IVA retenido
+PM-M-ICF	Saldo de Crédito Fiscal a favor del Dependiente para el mes siguiente
+PM-M-ICT	Saldo de pago a cuenta SIETE-R a favor del Dependiente para el mes siguiente
