@@ -1,56 +1,21 @@
-insert into "PL_EDV_ERP"."@PL_EXP" values('RM-A-ACM','',1,'RM','SQL','select  * from "EDV_ERP"."Pro_a_CM"(@PLANI,@PLANICODE,@GESTION,@PLANI+''-A-ACM'') ');
-insert into "PL_EDV_ERP"."@PL_EXP" values('RM-A-ALC','',1,'RM','SQL','select  * from "EDV_ERP"."Pro_a_LC"(@PLANI,@PLANICODE,@GESTION,@PLANI+''-A-ALC'') ');
-insert into "PL_EDV_ERP"."@PL_EXP" values('RM-A-ARC','',1,'RM','SQL','select  * from "EDV_ERP"."Pro_a_RC"(@PLANI,@PLANICODE,@GESTION,@PLANI+''-A-ARC'') ');
-insert into "PL_EDV_ERP"."@PL_EXP" values('RM-A-ALS','',1,'RM','SQL','select  * from "EDV_ERP"."Pro_a_LS"(@PLANI,@GESTION,@PLANI+''-A-ALS'') ');
-insert into "PL_EDV_ERP"."@PL_EXP" values('RM-A-AFP','',1,'RM','SQL','select  * from "EDV_ERP"."Pro_aAFP"(@PLANI,@PLANICODE,@GESTION) ');
-insert into "PL_EDV_ERP"."@PL_EXP" values('RM-A-BCM','',1,'RM','SQL','select  * from "EDV_ERP"."Pro_a_CM"(@PLANI,@PLANICODE,@GESTION,@PLANI+''-A-BCM'') ');
-insert into "PL_EDV_ERP"."@PL_EXP" values('RM-A-BLC','',1,'RM','SQL','select  * from "EDV_ERP"."Pro_a_LC"(@PLANI,@PLANICODE,@GESTION,@PLANI+''-A-BLC'') ');
-insert into "PL_EDV_ERP"."@PL_EXP" values('RM-A-BRC','',1,'RM','SQL','select  * from "EDV_ERP"."Pro_a_RC"(@PLANI,@PLANICODE,@GESTION,@PLANI+''-A-BRC'') ');
-insert into "PL_EDV_ERP"."@PL_EXP" values('RM-A-BLS','',1,'RM','SQL','select  * from "EDV_ERP"."Pro_a_LS"(@PLANI,@GESTION,@PLANI+''-A-BLS'') ');
-insert into "PL_EDV_ERP"."@PL_EXP" values('RM-A-BFP','',1,'RM','SQL','select  * from "EDV_ERP"."Pro_aBFP"(@PLANI,@PLANICODE,@GESTION) ');
-insert into "PL_EDV_ERP"."@PL_EXP" values('RM-R-CNS','',1,'RM','SQL','select * from "EDV_ERP"."Pro_rCNS"(@PLANI,@PLANICODE,@GESTION) ');
-insert into "PL_EDV_ERP"."@PL_EXP" values('RM-R-FFN','',1,'RM','SQL','select * from "EDV_ERP"."Pro_rF_N"(@PLANI,@PLANICODE,@GESTION,@PLANI+''-R-FFN'') ');
-insert into "PL_EDV_ERP"."@PL_EXP" values('RM-R-FON','',1,'RM','SQL','select * from "EDV_ERP"."Pro_rF_N"(@PLANI,@PLANICODE,@GESTION,@PLANI+''-R-FON'') ');
-insert into "PL_EDV_ERP"."@PL_EXP" values('RM-R-FPF','',1,'RM','SQL','select * from "EDV_ERP"."Pro_r_PF"(@PLANI,@PLANICODE,@GESTION,@PLANI+''-R-FPF'') ');
-insert into "PL_EDV_ERP"."@PL_EXP" values('RM-R-FSO','',1,'RM','SQL','select * from "EDV_ERP"."Pro_r_SO"(@PLANI,@GESTION,@PLANI+''-R-FSO'')');
-insert into "PL_EDV_ERP"."@PL_EXP" values('RM-R-PSO','',1,'RM','SQL','select * from "EDV_ERP"."Pro_r_SO"(@PLANI,@GESTION,@PLANI+''-R-PSO'')');
-insert into "PL_EDV_ERP"."@PL_EXP" values('RM-R-RPF','',1,'RM','SQL','select * from "EDV_ERP"."Pro_r_PF"(@PLANI,@PLANICODE,@GESTION,@PLANI+''-R-RPF'') ');
-insert into "PL_EDV_ERP"."@PL_EXP" values('RM-M-SNA','',1,'RM','SQL','select  * from "EDV_ERP"."Pro_mSNA"(@PLANI,@PLANICODE,@GESTION) ');
-insert into "PL_EDV_ERP"."@PL_EXP" values('RM-M-ISN','',1,'RM','SQL','select  * from "EDV_ERP"."Pro_mISN"(@PLANI,@PLANICODE,@GESTION) ');
-insert into "PL_EDV_ERP"."@PL_EXP" values('RM-M-INI','',1,'RM','SQL','select  * from "EDV_ERP"."Pro_mINI"(@PLANI,@PLANICODE,@GESTION) ');
-insert into "PL_EDV_ERP"."@PL_EXP" values('RM-M-IMI','',1,'RM','SQL','select  * from "EDV_ERP"."Pro_mIMI"(@PLANI,@PLANICODE,@GESTION) ');
-insert into "PL_EDV_ERP"."@PL_EXP" values('RM-M-I13','',1,'RM','SQL','select  * from "EDV_ERP"."Pro_mI13"(@PLANI,@PLANICODE,@GESTION) ');
-insert into "PL_EDV_ERP"."@PL_EXP" values('RM-M-IMN','',1,'RM','SQL','select  * from "EDV_ERP"."Pro_mIMN"(@PLANI,@PLANICODE,@GESTION) ');
-insert into "PL_EDV_ERP"."@PL_EXP" values('RM-M-N13','',1,'RM','SQL','select  * from "EDV_ERP"."Pro_mN13"(@PLANI,@PLANICODE,@GESTION)');
-insert into "PL_EDV_ERP"."@PL_EXP" values('RM-M-IFI','',1,'RM','SQL','select  * from "EDV_ERP"."Pro_mIFI"(@PLANI,@PLANICODE,@GESTION) ');
-insert into "PL_EDV_ERP"."@PL_EXP" values('RM-M-ICO','',1,'RM','SQL','select  * from "EDV_ERP"."Pro_mICO"(@PLANI,@PLANICODE,@GESTION) ');
-insert into "PL_EDV_ERP"."@PL_EXP" values('RM-M-ISA','',1,'RM','SQL','select  * from "EDV_ERP"."Pro_mISA"(@PLANI,@PLANICODE,@GESTIONANT,@GESTION) ');
-insert into "PL_EDV_ERP"."@PL_EXP" values('RM-M-IMA','',1,'RM','SQL','select  * from "EDV_ERP"."Pro_mIMA"(@PLANI,@PLANICODE,@GESTION) ');
-insert into "PL_EDV_ERP"."@PL_EXP" values('RM-M-IS1','',1,'RM','SQL','select  * from "EDV_ERP"."Pro_mIS1"(@PLANI,@PLANICODE,@GESTION) ');
-insert into "PL_EDV_ERP"."@PL_EXP" values('RM-M-ISU','',1,'RM','SQL','select  * from "EDV_ERP"."Pro_mISU"(@PLANI,@PLANICODE,@GESTION) ');
-insert into "PL_EDV_ERP"."@PL_EXP" values('RM-M-ISR','',1,'RM','SQL','select  * from "EDV_ERP"."Pro_mISR"(@PLANI,@PLANICODE,@GESTION) ');
-insert into "PL_EDV_ERP"."@PL_EXP" values('RM-M-FFT','',1,'RM','SQL','select  * from "EDV_ERP"."Pro_mFFT"(@PLANI,@PLANICODE,@GESTION) ');
-insert into "PL_EDV_ERP"."@PL_EXP" values('RM-M-UF1','',1,'RM','SQL','select  * from "EDV_ERP"."Pro_mUF1"(@PLANI,@PLANICODE,@GESTION) ');
-insert into "PL_EDV_ERP"."@PL_EXP" values('RM-M-ISF','',1,'RM','SQL','select  * from "EDV_ERP"."Pro_mISF"(@PLANI,@PLANICODE,@GESTION) ');
-insert into "PL_EDV_ERP"."@PL_EXP" values('RM-V-DIA','',1,'RM','SQL','select * from "EDV_ERP"."Pro_vDIN"(@PLANI,@PLANICODE,@GESTION) ');
-insert into "PL_EDV_ERP"."@PL_EXP" values('RM-V-ME1','',1,'RM','SQL','select  * from "EDV_ERP"."Pro_vMA_"(@PLANI,@PLANICODE,@GESTION,3) ');
-insert into "PL_EDV_ERP"."@PL_EXP" values('RM-V-ME2','',1,'RM','SQL','select  * from "EDV_ERP"."Pro_vMA_"(@PLANI,@PLANICODE,@GESTION,2) ');
-insert into "PL_EDV_ERP"."@PL_EXP" values('RM-V-ME3','',1,'RM','SQL','select  * from "EDV_ERP"."Pro_vMA_"(@PLANI,@PLANICODE,@GESTION,1) ');
-insert into "PL_EDV_ERP"."@PL_EXP" values('RM-V-PRO','',1,'RM','SQL','select  * from "EDV_ERP"."Pro_vPRO"(@PLANI,@PLANICODE,@GESTION) ');
-insert into "PL_EDV_ERP"."@PL_EXP" values('RM-V-ANT','',1,'RM','SQL','select  * from "EDV_ERP"."Pro_vANT"(@PLANI,@PLANICODE,@GESTION) ');
-insert into "PL_EDV_ERP"."@PL_EXP" values('RM-V-ACT','',1,'RM','SQL','select  * from "EDV_ERP"."Pro_vACT"(@PLANI,@PLANICODE,@GESTION) ');
-insert into "PL_EDV_ERP"."@PL_EXP" values('RM-V-IND','',1,'RM','SQL','select  * from "EDV_ERP"."Pro_vIND"(@PLANI,@PLANICODE,@GESTION) ');
-insert into "PL_EDV_ERP"."@PL_EXP" values('RM-V-DAG','',1,'RM','SQL','select  * from "EDV_ERP"."Pro_vDAG"(@PLANI,@PLANICODE,@GESTION) ');
-insert into "PL_EDV_ERP"."@PL_EXP" values('RM-V-ANA','',1,'RM','SQL','select  * from "EDV_ERP"."Pro_vANA"(@PLANI,@PLANICODE,@GESTION) ');
-insert into "PL_EDV_ERP"."@PL_EXP" values('RM-V-ACA','',1,'RM','SQL','select  * from "EDV_ERP"."Pro_vACA"(@PLANI,@PLANICODE,@GESTION) ');
-insert into "PL_EDV_ERP"."@PL_EXP" values('RM-V-AGU','',1,'RM','SQL','select  * from "EDV_ERP"."Pro_vAGU"(@PLANI,@PLANICODE,@GESTION) ');
-insert into "PL_EDV_ERP"."@PL_EXP" values('RM-V-PRI','',1,'RM','SQL','select  * from "EDV_ERP"."Pro_vPRI"(@PLANI,@PLANICODE,@GESTION)');
-insert into "PL_EDV_ERP"."@PL_EXP" values('RM-V-MEI','',1,'RM','SQL','select * from "EDV_ERP"."Pro_vMIN"(@PLANI,@PLANICODE,@GESTION) ');
-insert into "PL_EDV_ERP"."@PL_EXP" values('RM-V-ANI','',1,'RM','SQL','select * from "EDV_ERP"."Pro_vAIN"(@PLANI,@PLANICODE,@GESTION) ');
-insert into "PL_EDV_ERP"."@PL_EXP" values('RM-V-MAG','',1,'RM','SQL','select  * from "EDV_ERP"."Pro_vMAG"(@PLANI,@PLANICODE,@GESTION) ');
-insert into "PL_EDV_ERP"."@PL_EXP" values('RM-V-ACP','',1,'RM','SQL','select  * from "EDV_ERP"."Pro_vACP"(@PLANI,@PLANICODE,@GESTION)');
-insert into "PL_EDV_ERP"."@PL_EXP" values('RM-V-AAG','',1,'RM','SQL','select  * from "EDV_ERP"."Pro_vAAG"(@PLANI,@PLANICODE,@GESTION) ');
-insert into "PL_EDV_ERP"."@PL_EXP" values('RM-M-ICF','',1,'RM','SQL','select  * from "EDV_ERP"."Pro_mICF"(@PLANI,@PLANICODE,@GESTION) ');
-insert into "PL_EDV_ERP"."@PL_EXP" values('RM-M-ICT','',1,'RM','SQL','select  * from "EDV_ERP"."Pro_mICT"(@PLANI,@PLANICODE,@GESTION) ');
-insert into "PL_EDV_ERP"."@PL_EXP" values('RM-V-PRM','',1,'RM','SQL','select  * from "EDV_ERP"."Pro_vPRM"(@PLANI,@PLANICODE,@GESTION) ');
-
+CREATE function "Pro_iSB_R"(PLANI varchar(15), PLANICODE varchar(15), Gestion varchar(10))
+RETURNS table 
+(
+	empId varchar(20),
+    Monto numeric(18,5)
+)
+LANGUAGE SQLSCRIPT AS 
+TC numeric(18,2);
+--ALTER LOCAL TEMPORARY TABLE #my_local_temp_table (empid varchar(15), HB numeric(18,2), U_Cur varchar(10));
+BEGIN
+select ifnull((SELECT TOP 1 "Rate" FROM ORTT WHERE upper("Currency") = 'USD' AND "RateDate" = (SELECT DOC."U_Fecha" FROM "PL_LIDER_PROD"."@PLDOC" DOC WHERE DOC."Name" = :PLANICODE)),0) into TC from dummy;
+RETURN
+	SELECT EMP."U_EmpID" as empId,
+		
+		(HB."U_HB"- SB.MONTO) as Monto 
+	 
+	FROM "PL_LIDER_PROD"."@PL_EMP" EMP inner join "PL_LIDER_PROD"."@PLPARD" HB  on EMP."U_EmpID" =HB."U_EmpId" 
+	inner join (select empid, Monto from "Pro_xCONC"(:PLANI,'-I-SB',:Gestion))SB on EMP."U_EmpID"=SB.empid
+	WHERE EMP."U_Cod_PL" =:PLANI ORDER BY EMP."U_EmpID";
+	
+END;
